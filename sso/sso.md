@@ -16,7 +16,7 @@ B) Impementar um serviço próprio.
 
 ### Fluxo:
 ```mermaid
-graph TD;
+graph LR;
     A[Tentativa de acesso no serviço]-->B{Logado?};
     B-- Sim -->C[Autorizado];
     B-- Não -->D[Redirect para Login];
